@@ -1,0 +1,349 @@
+ *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box; 
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style:none;
+ }
+
+ .header{
+   position:fixed;
+   left:0;
+   top:0;
+   right:0;
+   width:100%;
+   background-color: black;
+   backdrop-filter: blur(10px);
+   display: flex;
+   padding:30px 5%;
+  justify-content: space-between;
+   align-items:center;
+   z-index:100;
+ }
+
+  .logo{
+    font-size:25px;
+    font-weight:600;
+    color:white;
+    transition: 0.3s ease;
+  }
+  .logo:hover{
+    color:rgb(207, 26, 104);
+    text-shadow:0 0 25px rgb(207, 26, 104),
+                0 0 50px  rgb(207, 26, 104);
+                transform:scale(1.1);
+
+  }
+
+  span{
+    color: rgb(207, 26, 104);
+  }
+
+.navbar a{
+    font-size:18px;
+    color:white;
+    font-weight:10%;
+    margin:0 20px;
+    text-decoration:none;
+    border-bottom:3px solid transparent;
+    transition:0.3s ease;
+
+  }
+
+  .navbar a:hover{
+    color: rgb(207, 26, 104);
+    border-bottom:3px solid  rgb(207, 26, 104);
+    background-color: white;
+    border-radius: 2px;
+    padding:2px 12px;
+    
+
+  }
+
+  .contact{
+    font-size:16px;
+    padding:10px 28px;
+    color:black;
+    background-color: white;
+    border-radius:8px;
+    border:3px solid transparent;
+    letter-spacing: 1px;
+    font-weight:600;
+    transition:all 1s ease;
+    border:2px solid transparent;
+  }
+  .contact:hover{
+    background-color:  rgb(207, 26, 104);
+    box-shadow:0 0 25px  rgb(207, 26, 104);
+    color:white;
+    transform: scale(0.5);
+
+  }
+
+  .home{
+    width:100%;  
+    height:100vh;
+     overflow: auto;
+     display:flex;
+     align-items:space-around;
+     background-image: url("tim-mossholder-07uiqD9LS6U-unsplash.jpg");
+     gap:7em;
+     background-size: cover;
+     background-position: center;
+
+     padding:200px 5% 0;
+  }
+
+  .content{
+    max-width:800px;
+  }
+
+  .content h3{
+    font-size:42px;
+  }
+
+  .content h1{
+    font-size:62px;
+  }
+
+  .content{
+    font-size:20px;
+    margin:25px 0 30px;
+  }
+
+  .button{
+    width:345px;
+    align-items: space-evenly;
+  }
+
+  .b1{
+    color:white;
+    background-color: black;
+    padding:10px 20px;
+    border-radius:30px;
+    font-size:15px;
+    font-weight:600;
+    border:2px solid black;
+    transition:0.3s ease;
+  }
+  .b1:hover{
+    background-color:  rgb(207, 26, 104);
+    color:black;
+  }
+
+  .b2{
+    color:white;
+    background-color:  rgb(207, 26, 104);
+    padding:10px 20px;
+    border-radius:30px;
+    font-size:15px;
+    font-weight:600;
+    border:2px solid black;
+    transition:0.3s ease;
+  }
+  .b2:hover{
+    background-color: black;
+    color: rgb(207, 26, 104);
+  }
+
+  .img img{   
+border-radius:50%;
+width:400px;
+height:400px;
+box-shadow: 0 0 25px white; 
+  }
+
+  ::-webkit-scrollbar{
+    width:15px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: rgb(207, 26, 104);
+
+  }
+  ::-webkit-scrollbar-track{
+    background-color: black;
+    width:50px;
+  }
+ 
+
+  .about{
+    display:flex;
+    justify-content:centre;
+    align-items: center;
+    padding:12% 8%;
+    gap:10em;
+    background-color:pink;
+    min-height:100vh;
+  }
+.image-about img{
+  position:relative;
+  width:400px;
+  height:400px;
+  box-shadow: 0 0 25px white,
+  0 0 50px white;
+  border-radius:50%;
+}
+
+button{
+  background-color:  rgb(207, 26, 104);
+  color:white;
+  padding:10px 20px;
+    border-radius:30px;
+    font-size:15px;
+    font-weight:600;
+    border:2px solid black;
+    transition:0.3s ease;
+}
+
+.content-about h2{
+text-align:left;
+color:white;
+font-size:42px;
+}
+
+.content-about h3{
+  font-size:62px;
+  color:white;
+}
+
+.content-about p{
+     font-size:20px;
+     color:white;
+}
+
+ 
+
+.form h2{
+  text-align: center;
+    margin-top:1em;
+    margin-bottom:1em;
+   font-size:36px;
+
+}
+
+
+.form form{
+   margin-bottom:3em;
+   max-width:50em;
+   margin:1em auto;
+   text-align:center;
+
+}
+
+.form form .input{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+
+}
+
+.form form .input input,
+.form form textarea{
+  width:100%;
+  padding:1.5em;
+  margin:5px;
+  font-size:16px;
+   color:black;
+   border-radius:8px;
+   resize:none;
+
+} 
+.form{
+  max-height:100vh;
+}
+
+.submit{
+font-size:16px;
+    padding:10px 28px;
+    color:white;
+    background-color: black;
+    border-radius:8px;
+    border:3px solid transparent;
+    letter-spacing: 1px;
+    font-weight:600;
+    transition:0.3s ease;
+    border:2px solid transparent;
+}
+  .submit:hover{
+    background-color:  rgb(207, 26, 104);
+    box-shadow:0 0 25px  rgb(207, 26, 104);
+    color:white;
+
+  }
+
+  .footer {
+    width:100%;
+    background-color: black;
+    position:relative;
+    padding:25px 0;
+    bottom:0;
+    left:0;
+    right:0;
+
+
+  }
+
+  .footer .symbol{
+    text-align:center;
+    padding-bottom:25px;
+    color:white;
+    border-radius: 50%;
+    
+  }
+
+  .footer .symbol a{
+    margin:10px;
+  }
+
+  .project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+  } 
+  .project .box{
+    height:400px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: black;
+    color: white;
+  }
+
+  .box a{
+    color:white;
+    text-decoration: none;
+  }
+
+  .projects{
+    text-align: center;
+    padding: 20px;
+  }
+
+  .amazon{
+    height: 90%;
+    background-image: url("amaz.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .weather{
+    height: 90%;
+    background-image: url("weather.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .page{
+    height: 90%;
+    background-image: url("image.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .calculator{
+    height: 90%;
+    background-image: url("calci.jpg");
+    background-size: cover;
+    background-position: center;
+  }
